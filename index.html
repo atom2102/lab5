@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--Responsive web design -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>VLT</title>
+
+    <style>/*CSS media queries*/
+    @media (max-width: 1000px) { 
+      body { 
+        font-size: 15px;
+       }
+       h1{
+        font-size: 30px;
+       }
+     }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary"><!-- Створення навігаційного блоку-->
+
+      <a class="navbar-brand" href="#">VLT</a><!-- Лейбл-->
+
+        <ul class="navbar-nav ml-auto"><!-- Створення списку для того щоб правильно вмістити в себе всі елементи навігації-->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contact</a>
+          </li>
+        </ul>
+
+    </nav>
+
+    <header class="container-fluid"><!-- Створення елементу header та присвоєння класу container-fluid-->
+      <div class="row"><!-- Створення рядків-->
+
+        <div class="col" style="background: grey;text-align: center;"><!-- Створення стовпчиків-->
+          <h1 style="margin-top: 12%; font-size: 50px;">VLT<br>
+          Top 5 in the world<br>
+          Telescope shop</h1>
+        </div>
+
+        <div class="col" style="background: grey;" ><!-- Створення стовпчиків-->
+          <img src="header.jpg" alt="Telescope" style="display: block; margin: 0 auto;">
+        </div>
+
+      </div>
+    </header>
+
+    <div class="container" style="margin-top: 3%; margin-bottom: 3%;text-align: center;"><!-- Створення блоку з вмістом про компанію-->
+      <h1>Something about our company</h1>
+      <p>
+        We are a VLT company, we are engaged in the development and sale of very high quality and<br> relatively inexpensive telescopes. We start our business since 2002. It was then that we sold our first prototype of the telescope,<br> and since that time we continue to delight our customers with quality products.A telescope is a device with which you can observe distant objects by collecting electromagnetic radiation (for example, visible light).
+        There are telescopes for all ranges of the electromagnetic spectrum:<br>
+        optical telescopes, radio telescopes, X-ray telescopes, gamma telescopes. We sell all these types of telescopes.
+      </p>
+    </div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"><!-- Створення каруселі зображень-->
+        <div class="carousel-inner">
+
+          <div class="carousel-item active"><!-- Створення елементів каруселі-->
+            <img class="d-block w-100" src="carousel1.jpg" alt="First slide">
+          </div>
+
+          <div class="carousel-item"><!-- Створення елементів каруселі-->
+            <img class="d-block w-100" src="carousel2.jpg" alt="Second slide">
+          </div>
+
+          <div class="carousel-item"><!-- Створення елементів каруселі-->
+            <img class="d-block w-100" src="carousel3.jpg" alt="Third slide">
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span><!-- Створення кнопки перемотування зображень-->
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span><!-- Створення кнопки перемотування зображень-->
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+
+      <div class="container" style="display: flex; justify-content: space-between; margin-top: 5%; margin-bottom:5%;"><!-- Створення блоку який зберігає в собі конструкції card-->
+
+        <div class="card" style="width: 18rem;"><!-- Створення карточки 1-->
+          <img class="card-img-top" src="card1.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Celestron NexStar 130 <br>SLT</h5>
+            <p class="card-text">Advanced model, specially designed for professionals</p>
+            <a href="#" class="btn btn-primary">749$ Buy</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;"><!-- Створення карточки 2-->
+          <img class="card-img-top" src="card2.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CONSTELLATION PRO 750x</h5>
+            <p class="card-text">The best combination of quality and price</p>
+            <a href="#" class="btn btn-primary">399$ Buy</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;"><!-- Створення карточки 3-->
+          <img class="card-img-top" src="card3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">DISCOVERY 114/900</h5>
+            <p class="card-text">Budget model for beginners.<br> The advantage of this telescope is the price</p>
+            <a href="#" class="btn btn-primary">199$ Buy</a>
+          </div>
+        </div>
+
+      </div>
+
+    <div class="container-fluid" style="background: grey; text-align: center;"><!-- Створення блоку перед footer-->
+      <h1 style="padding: 30px;">Telescopes</h1>
+      <p style="padding-bottom:30px;">
+        Buying telescopes from us you get a 5-year warranty and all kinds of bonuses from our company.
+      </p>
+    </div>
+
+    <footer style="text-align: center;"><!-- Створення footer-->
+      <p>2021 VLT comp. All rights received</p>
+    </footer>
+
+  </body>
+</html>
